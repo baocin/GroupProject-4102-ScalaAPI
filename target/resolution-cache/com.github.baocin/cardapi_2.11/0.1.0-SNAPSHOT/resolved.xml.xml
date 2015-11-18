@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.github.baocin"
+		module="cardapi_2.11"
+		revision="0.1.0-SNAPSHOT"
+		status="integration"
+		publication="20151118112919"
+	>
+		<description>
+		CardAPI
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="container" visibility="private" description=""/>
+		<conf name="scalate" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="cardapi_2.11" type="war" ext="war" conf="compile,runtime,test,provided,optional,sources,docs,pom"/>
+		<artifact name="cardapi_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="cardapi_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="cardapi_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="cardapi_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.6" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-runner" rev="9.2.1.v20140609" transitive="false" conf="container->default(compile)"/>
+		<dependency org="com.mojolly.scalate" name="scalate-generator_2.11" rev="0.5.0" conf="scalate->default(compile)"/>
+		<dependency org="org.scalatra" name="scalatra_2.11" rev="2.4.0.RC3" conf="compile->default(compile)"/>
+		<dependency org="org.scalatra" name="scalatra-scalate_2.11" rev="2.4.0.RC3" conf="compile->default(compile)"/>
+		<dependency org="org.scalatra" name="scalatra-specs2_2.11" rev="2.4.0.RC3" conf="test->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.1.2" conf="runtime->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-webapp" rev="9.2.10.v20150310" conf="container->default(compile)"/>
+		<dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0" conf="provided->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-native_2.11" rev="3.3.0" conf="compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-jackson_2.11" rev="3.3.0" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.11" rev="2.6.3" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.6.3" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.6.3" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.6.3" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>
