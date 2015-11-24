@@ -1,22 +1,22 @@
-[0m[[0minfo[0m] [0mUpdating {file:/root/cardapi/project/}cardapi-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#cardapi-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/root/GroupProject-4102-ScalaAPI/project/}groupproject-4102-scalaapi-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.mojolly.scalate#xsbt-scalate-generator;0.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.mojolly.scalate#xsbt-scalate-generator;0.5.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.mojolly.scalate#xsbt-scalate-generator;0.5.0[0m
 [0m[[0mdebug[0m] [0m	found com.mojolly.scalate#xsbt-scalate-generator;0.5.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatra.sbt#scalatra-sbt;0.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatra.sbt#scalatra-sbt;0.4.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatra.sbt#scalatra-sbt;0.4.0[0m
 [0m[[0mdebug[0m] [0m	found org.scalatra.sbt#scalatra-sbt;0.4.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving com.earldouglas#xsbt-web-plugin;1.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.earldouglas#xsbt-web-plugin;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -29,8 +29,8 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0[0m
@@ -117,20 +117,20 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
@@ -192,21 +192,21 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
@@ -268,12 +268,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8[0m
@@ -957,22 +957,22 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
@@ -1033,13 +1033,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -1502,21 +1502,21 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
@@ -1577,24 +1577,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.sbt#scalatra-sbt;0.4.0->com.earldouglas#xsbt-web-plugin;1.1.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scalatra.sbt#scalatra-sbt;0.4.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
@@ -1655,13 +1655,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -2124,18 +2124,18 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cardapi-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
@@ -2153,8 +2153,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}[0m
@@ -2167,11 +2167,11 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cardapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.mojolly.scalate#xsbt-scalate-generator;0.5.0!xsbt-scalate-generator.jar[0m
@@ -2237,19 +2237,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6085ms :: artifacts dl 173ms[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT compile produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT runtime produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT test produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT provided produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT optional produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT compile-internal produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT runtime-internal produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT test-internal produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT plugin produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT sources produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT docs produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT pom produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cardapi-build;0.1-SNAPSHOT scala-tool produced in /root/cardapi/project/target/resolution-cache/reports/default-cardapi-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (6085ms resolve - 173ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8121ms :: artifacts dl 162ms[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT compile produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT runtime produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT test produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT provided produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT optional produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT compile-internal produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT runtime-internal produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT test-internal produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT plugin produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT sources produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT docs produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT pom produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#groupproject-4102-scalaapi-build;0.1-SNAPSHOT scala-tool produced in /root/GroupProject-4102-ScalaAPI/project/target/resolution-cache/reports/default-groupproject-4102-scalaapi-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (8121ms resolve - 162ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

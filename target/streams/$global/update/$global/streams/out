@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/root/cardapi/}cardapi...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/root/GroupProject-4102-ScalaAPI/}cardapi...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container, scalate][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f649ef3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10f2aa40[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
@@ -3099,7 +3099,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;9.2.10.v20150310 [container->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-webapp;9.2.10.v20150310 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f4d0d38[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56278582[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;9.2.10.v20150310[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-webapp;9.2.10.v20150310 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;9.2.10.v20150310 [container->runtime][0m
@@ -3301,6 +3301,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scalatra.scalate#scalate-core_2.11;1.7.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scalatra.scalate#scalate-core_2.11;1.7.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.mojolly.scalate#scalate-generator_2.11;0.5.0 [scalate->master][0m
+[0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-compiler;2.11.0->...[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for org.scala-lang#scala-reflect;2.11.0: evicting too[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for org.scala-lang#scala-reflect;2.11.0: evicting too[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
@@ -3392,23 +3393,23 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.mojolly.scalate#scalate-generator_2.11;0.5.0!scalate-generator_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra.scalate#scalate-core_2.11;1.7.0!scalate-core_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra.scalate#scalate-util_2.11;1.7.0!scalate-util_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4100ms :: artifacts dl 366ms[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT compile produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT runtime produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT test produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT provided produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT optional produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT compile-internal produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT runtime-internal produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT test-internal produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT plugin produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT sources produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT docs produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT pom produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT scala-tool produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT container produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-container.xml[0m
-[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT scalate produced in /root/cardapi/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-scalate.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4100ms resolve - 366ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5583ms :: artifacts dl 381ms[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT compile produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT runtime produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT test produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT provided produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT optional produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT compile-internal produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT runtime-internal produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT test-internal produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT plugin produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT sources produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT docs produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT pom produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT scala-tool produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT container produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-container.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT scalate produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-scalate.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (5583ms resolve - 381ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
 [0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.11.0, 2.11.6) -> 2.11.7[0m

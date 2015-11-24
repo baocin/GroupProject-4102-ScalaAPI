@@ -14,7 +14,7 @@ trait CardapiStack extends ScalatraServlet with ScalateSupport {
     contentType = null
     // Try to render a ScalateTemplate if no route matched
     findTemplate(requestPath) map { path =>
-      contentType = "text/html"
+      contentType = "text/json"
       layoutTemplate(path)
     } orElse serveStaticResource() getOrElse resourceNotFound()
   }
