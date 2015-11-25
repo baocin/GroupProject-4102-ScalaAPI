@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 [0m[[0minfo[0m] [0mUpdating {file:/home/aoi/Code/GroupProject-4102-ScalaAPI/}cardapi...[0m
+=======
+[0m[[0minfo[0m] [0mUpdating {file:/root/GroupProject-4102-ScalaAPI/}cardapi...[0m
+[0m[[33mwarn[0m] [0mMultiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:[0m
+[0m[[33mwarn[0m] [0m * ch.qos.logback:logback-classic:(1.1.2, 1.0.13)[0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container, scalate][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +13,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57495b5[0m
+=======
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a6ee0ed[0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
@@ -205,6 +215,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra#scalatra-scalate_2.11;2.4.0.RC3->org.scalatra.scalate#scalate-core_2.11;1.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scalatra.scalate#scalate-util_2.11;1.7.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatra.scalate#scalate-util_2.11;1.7.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatra.scalate#scalate-util_2.11;1.7.1[0m
@@ -232,6 +243,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.0[0m
@@ -243,6 +255,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.0[0m
@@ -365,6 +378,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.11;3.3.0->org.json4s#json4s-core_2.11;3.3.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.11;3.3.0->org.json4s#json4s-core_2.11;3.3.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-native_2.11;3.3.0 [compile->master][0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.json4s#json4s-jackson_2.11;3.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.json4s#json4s-jackson_2.11;3.3.0 {compile=[default(compile)]}[0m
@@ -497,6 +511,54 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->master][0m
+=======
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.argonaut#argonaut_2.11;6.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.argonaut#argonaut_2.11;6.0.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.argonaut#argonaut_2.11;6.0.4[0m
+[0m[[0mdebug[0m] [0m	found io.argonaut#argonaut_2.11;6.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.11;7.0.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.11;7.0.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.0.6[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.11;7.0.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [compile][0m
@@ -608,8 +670,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra#scalatra-scalate_2.11;2.4.0.RC3->org.scalatra.scalate#scalate-core_2.11;1.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
@@ -632,16 +701,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -734,6 +817,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-native_2.11;3.3.0 [compile->master][0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->compile][0m
@@ -819,6 +903,44 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->master][0m
+=======
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]}[0m
@@ -843,6 +965,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [test][0m
@@ -956,9 +1083,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra#scalatra-scalate_2.11;2.4.0.RC3->org.scalatra.scalate#scalate-core_2.11;1.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
@@ -981,18 +1116,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -1085,6 +1236,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-native_2.11;3.3.0 [compile->master][0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->compile][0m
@@ -1170,6 +1322,44 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->master][0m
+=======
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
@@ -1184,6 +1374,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.scalatra#scalatra-specs2_2.11;2.4.0.RC3 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatra#scalatra-specs2_2.11;2.4.0.RC3 ...[0m
@@ -1399,9 +1594,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)][0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz#scalaz-concurrent_2.11;7.1.3 [compile->master(compile)][0m
+=======
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz#scalaz-core_2.11;7.1.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz#scalaz-core_2.11;7.1.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz#scalaz-core_2.11;7.1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz#scalaz-concurrent_2.11;7.1.3 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-concurrent_2.11;7.1.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-concurrent_2.11;7.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.11;7.1.3[0m
@@ -1451,10 +1661,31 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz.stream#scalaz-stream_2.11;0.7.2a->org.scodec#scodec-bits_2.11;1.0.9 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz.stream#scalaz-stream_2.11;0.7.2a->org.scodec#scodec-bits_2.11;1.0.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz.stream#scalaz-stream_2.11;0.7.2a [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-matcher_2.11;3.6.4->org.specs2#specs2-common_2.11;3.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-core_2.11;3.6.4->org.specs2#specs2-matcher_2.11;3.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-core_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-core_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-core_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra#scalatra-specs2_2.11;2.4.0.RC3->org.specs2#specs2-core_2.11;3.6.4 [compile->runtime(*)][0m
@@ -1471,14 +1702,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz#scalaz-core_2.11;7.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz#scalaz-core_2.11;7.1.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.3->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz#scalaz-concurrent_2.11;7.1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz#scalaz-concurrent_2.11;7.1.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
@@ -1762,10 +1985,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra#scalatra-scalate_2.11;2.4.0.RC3->org.scalatra.scalate#scalate-core_2.11;1.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
@@ -1788,20 +2020,38 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -1894,6 +2144,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-native_2.11;3.3.0 [compile->master][0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->compile][0m
@@ -1979,6 +2230,44 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->master][0m
+=======
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->javax.servlet#javax.servlet-api;3.1.0 [provided->default(compile)][0m
@@ -2097,10 +2386,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra#scalatra-scalate_2.11;2.4.0.RC3->org.scalatra.scalate#scalate-core_2.11;1.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
@@ -2123,20 +2421,38 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -2229,6 +2545,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-native_2.11;3.3.0 [compile->master][0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->compile][0m
@@ -2314,6 +2631,44 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->master][0m
+=======
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
@@ -2328,6 +2683,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
@@ -2443,12 +2803,23 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra#scalatra-scalate_2.11;2.4.0.RC3->org.scalatra.scalate#scalate-core_2.11;1.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scalatra.scalate#scalate-util_2.11;1.7.1 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.1->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
@@ -2471,24 +2842,46 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.1->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -2581,6 +2974,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.11;3.3.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-native_2.11;3.3.0 [compile->master][0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.json4s#json4s-jackson_2.11;3.3.0 [compile->compile][0m
@@ -2666,6 +3060,44 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.3 [compile->master][0m
+=======
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
@@ -2680,6 +3112,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.2->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.scalatra#scalatra-specs2_2.11;2.4.0.RC3 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.scalatra#scalatra-specs2_2.11;2.4.0.RC3 [test->runtime][0m
@@ -2792,8 +3229,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz.stream#scalaz-stream_2.11;0.7.2a->org.scodec#scodec-bits_2.11;1.0.9 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz.stream#scalaz-stream_2.11;0.7.2a->org.scodec#scodec-bits_2.11;1.0.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scalaz.stream#scalaz-stream_2.11;0.7.2a [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-core_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
@@ -2946,6 +3391,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scodec#scodec-bits_2.11;1.0.9->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-common_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-core_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2-core_2.11;3.6.4->org.scala-lang#scala-reflect;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra#scalatra-specs2_2.11;2.4.0.RC3->org.specs2#specs2-mock_2.11;3.6.4 [runtime->runtime(*)][0m
@@ -3099,7 +3546,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-runner;9.2.1.v20140609 [container->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;9.2.10.v20150310 [container->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-webapp;9.2.10.v20150310 ...[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5102099d[0m
+=======
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cc202b4[0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;9.2.10.v20150310[0m
 [0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-webapp;9.2.10.v20150310 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-webapp;9.2.10.v20150310 [container->runtime][0m
@@ -3203,6 +3654,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.mojolly.scalate#scalate-generator_2.11;0.5.0->org.scalatra.scalate#scalate-core_2.11;1.7.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scalatra.scalate#scalate-util_2.11;1.7.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scalatra.scalate#scalate-util_2.11;1.7.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatra.scalate#scalate-util_2.11;1.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatra.scalate#scalate-util_2.11;1.7.0[0m
@@ -3210,6 +3662,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scalatra.scalate#scalate-util_2.11;1.7.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.1[0m
@@ -3221,6 +3674,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1[0m
@@ -3236,6 +3690,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-util_2.11;1.7.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
@@ -3253,12 +3708,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scala-lang#scala-compiler;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatra.scalate#scalate-core_2.11;1.7.0->org.scala-lang#scala-compiler;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)][0m
+=======
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]} => dependency: ch.qos.logback#logback-classic;0.9.26 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
@@ -3312,11 +3777,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra#scalatra_2.11;2.4.0.RC3!scalatra_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra#scalatra-scalate_2.11;2.4.0.RC3!scalatra-scalate_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-native_2.11;3.3.0!json4s-native_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-jackson_2.11;3.3.0!json4s-jackson_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.11;2.6.3!jackson-module-scala_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.6.3!jackson-annotations.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.6.3!jackson-databind.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.6.3!jackson-core.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.argonaut#argonaut_2.11;6.0.4!argonaut_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra#scalatra-common_2.11;2.4.0.RC3!scalatra-common_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar[0m
@@ -3340,8 +3801,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-ast_2.11;3.3.0!json4s-ast_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-scalap_2.11;3.3.0!json4s-scalap_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.6.3!jackson-module-paranamer.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.11;7.0.6!scalaz-core_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.2!logback-classic.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.2!logback-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra#scalatra-specs2_2.11;2.4.0.RC3!scalatra-specs2_2.11.jar[0m
@@ -3366,6 +3826,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2-matcher_2.11;3.6.4!specs2-matcher_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2-common_2.11;3.6.4!specs2-common_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.11;7.1.3!scalaz-core_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.11;7.1.3!scalaz-concurrent_2.11.jar(bundle)[0m
@@ -3395,6 +3856,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.mojolly.scalate#scalate-generator_2.11;0.5.0!scalate-generator_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra.scalate#scalate-core_2.11;1.7.0!scalate-core_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra.scalate#scalate-util_2.11;1.7.0!scalate-util_2.11.jar(bundle)[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m:: resolution report :: resolve 1961ms :: artifacts dl 49ms[0m
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT compile produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT runtime produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-runtime.xml[0m
@@ -3412,6 +3874,25 @@
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT container produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-container.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT scalate produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-scalate.xml[0m
 [0m[[0mdebug[0m] [0m	resolve done (1961ms resolve - 49ms download)[0m
+=======
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8162ms :: artifacts dl 388ms[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT compile produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT runtime produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT test produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT provided produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT optional produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT compile-internal produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT runtime-internal produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT test-internal produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT plugin produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT sources produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT docs produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT pom produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT scala-tool produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT container produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-container.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT scalate produced in /root/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-scalate.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (8162ms resolve - 388ms download)[0m
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
 [0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.11.0, 2.11.6) -> 2.11.7[0m

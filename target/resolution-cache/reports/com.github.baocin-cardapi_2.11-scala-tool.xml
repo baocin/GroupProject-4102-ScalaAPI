@@ -7,7 +7,11 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="scala-tool"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container, scalate"
+<<<<<<< HEAD
 		date="20151124194453"/>
+=======
+		date="20151122053224"/>
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-compiler">
 			<revision name="2.11.6" status="release" pubdate="20150225200127" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, optional, optional(default), master" position="0">

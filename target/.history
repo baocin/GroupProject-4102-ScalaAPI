@@ -16,7 +16,24 @@ eclipse
 update
 ~container:start
 update
+<<<<<<< HEAD
 upgrade
 eclipse
 ~container:start
 update
+=======
+~container:start
+build
+update
+~container:start
+update
+~container:start
+update
+~container:start
+update
+~container:start
+update
+~container:start
+update
+~container:start
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f

@@ -4,7 +4,11 @@
 		module="cardapi_2.11"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
+<<<<<<< HEAD
 		publication="20151124194453"
+=======
+		publication="20151122053224"
+>>>>>>> 49b522fcb03065c81ec4ed3f48530c9428aff27f
 	>
 		<description>
 		CardAPI
@@ -46,10 +50,7 @@
 		<dependency org="org.eclipse.jetty" name="jetty-webapp" rev="9.2.10.v20150310" conf="container->default(compile)"/>
 		<dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0" conf="provided->default(compile)"/>
 		<dependency org="org.json4s" name="json4s-native_2.11" rev="3.3.0" conf="compile->default(compile)"/>
-		<dependency org="org.json4s" name="json4s-jackson_2.11" rev="3.3.0" conf="compile->default(compile)"/>
-		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.11" rev="2.6.3" conf="compile->default(compile)"/>
-		<dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.6.3" conf="compile->default(compile)"/>
-		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.6.3" conf="compile->default(compile)"/>
-		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.6.3" conf="compile->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.0.13" conf="runtime->default(compile)"/>
+		<dependency org="io.argonaut" name="argonaut_2.11" rev="6.0.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
