@@ -13,3 +13,10 @@ eclipse
 update
 eclipse
 ~container:start
+update
+~container:start
+update
+upgrade
+eclipse
+~container:start
+update

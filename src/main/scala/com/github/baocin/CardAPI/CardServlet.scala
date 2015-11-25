@@ -5,9 +5,10 @@ import scalate.ScalateSupport
 import argonaut._, Argonaut._
 import scala.collection.mutable.HashMap
 
+
 class CardServlet extends CardapiStack {
   val map = scala.collection.mutable.HashMap.empty[Int,Deck]
-  
+
   get("/") {
     <html>
 	  <head>
@@ -28,6 +29,13 @@ class CardServlet extends CardapiStack {
 	val mapID = params.getOrElse("id", halt(404)).toInt
 	map(mapID).asJson
   }
+  get("/deck/:id/remove/:card") {
+	val mapID = params.getOrElse("id", halt(404)).toInt
+  val cardName = params.getOrElse("card", halt(404))
+	map(mapID).removeCard(cardName)
+  map(mapID).asJson
+
+  }
   get("/deck/:id/shuffle") {
     //return the shuffled deck of id ID
     val mapID = params.getOrElse("id", halt(404)).toInt
@@ -42,7 +50,7 @@ class CardServlet extends CardapiStack {
   get("/deck/new/") {
     multiParams("cards")
 	params.getOrElse("cards", "no cards supplied")
-	
+
     //Make new deck, if cards is specified then make it out of those cards, otherwise use default deck
   }
 
