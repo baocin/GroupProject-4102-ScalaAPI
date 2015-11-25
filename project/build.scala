@@ -29,10 +29,9 @@ object CardapiBuild extends Build {
         "ch.qos.logback" % "logback-classic" % "1.1.2" % "runtime",
         "org.eclipse.jetty" % "jetty-webapp" % "9.2.10.v20150310" % "container",
         "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
-        "org.eclipse.jetty" % "jetty-webapp" % "9.2.10.v20150310" % "container",
-		"org.json4s" % "json4s-native_2.11" % "3.3.0",
-		"ch.qos.logback" % "logback-classic" % "1.0.13" % "runtime",
-		"io.argonaut" %% "argonaut" % "6.0.4"
+		    "org.json4s" % "json4s-native_2.11" % "3.3.0",
+		    "io.argonaut" %% "argonaut" % "6.0.4",
+        "io.spray" %%  "spray-json" % "1.3.2"
       ),
       scalateTemplateConfig in Compile <<= (sourceDirectory in Compile){ base =>
         Seq(

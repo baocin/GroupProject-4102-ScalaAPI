@@ -4,7 +4,8 @@ import org.scalatra._
 import scalate.ScalateSupport
 import argonaut._, Argonaut._
 import scala.collection.mutable.HashMap
-
+import spray.json._
+import DefaultJsonProtocol._ // if you don't supply your own Protocol (see below)
 
 class CardServlet extends CardapiStack {
   val map = scala.collection.mutable.HashMap.empty[Int,Deck]
@@ -26,15 +27,15 @@ class CardServlet extends CardapiStack {
   }
 
   get("/deck/:id/") {
-	val mapID = params.getOrElse("id", halt(404)).toInt
-	map(mapID).asJson
+  	val mapID = params.getOrElse("id", halt(404)).toInt
+    Mapper.deckToJson(map(mapID));
   }
   get("/deck/:id/remove/:card") {
-	val mapID = params.getOrElse("id", halt(404)).toInt
-  val cardName = params.getOrElse("card", halt(404))
-	map(mapID).removeCard(cardName)
-  map(mapID).asJson
-
+  	val mapID = params.getOrElse("id", halt(404)).toInt
+    val cardName = params.getOrElse("card", halt(404))
+  	// map(mapID).removeCard(cardName)
+    println(mapID, " ", cardName)
+    Mapper.deckToJson(map(mapID));
   }
   get("/deck/:id/shuffle") {
     //return the shuffled deck of id ID
@@ -47,17 +48,28 @@ class CardServlet extends CardapiStack {
 
     //draw the specified number of cards from the deck of id ID (randomly)
   }
-  get("/deck/new/") {
+  get("/deck/new") {
     multiParams("cards")	//comma separated
-	params.getOrElse("cards", "no cards supplied")
+    val validCardsRegex = "([A-Za-z0-9][A-Za-z],?)+".r
+  	var cards = params.getOrElse("cards", "")
+    var newDeck : Deck = null;
+// (validCardsRegex match cards))
+    if (cards.isEmpty){
+      newDeck = new Deck(); //Default Deck
+    }else{
+      newDeck = new Deck(cards.split(","));
+    }
 
-    //Make new deck, if cards is specified then make it out of those cards, otherwise use default deck
+    //Add the newly made deck to the HashMap
+    map += (newDeck.id -> newDeck)
+
+    Mapper.deckToJson(newDeck);
   }
 
   get("/card"){
-	var card = new Card("test", 999)
-	card.asJson
-    //Utilities.convertToJson(new Card("suit_test", 999))
+  	var card = new Card("suit", "rank")
+  	Mapper.cardToJson(card)
+      //Utilities.convertToJson(new Card("suit_test", 999))
   }
 
 
