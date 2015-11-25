@@ -30,12 +30,9 @@ object CardapiBuild extends Build {
         "org.eclipse.jetty" % "jetty-webapp" % "9.2.10.v20150310" % "container",
         "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
         "org.eclipse.jetty" % "jetty-webapp" % "9.2.10.v20150310" % "container",
-        "org.json4s" % "json4s-native_2.11" % "3.3.0",
-        "org.json4s" % "json4s-jackson_2.11" % "3.3.0",
-        "com.fasterxml.jackson.module" % "jackson-module-scala_2.11" % "2.6.3",
-        "com.fasterxml.jackson.core" % "jackson-annotations" % "2.6.3",
-        "com.fasterxml.jackson.core" % "jackson-databind" % "2.6.3",
-        "com.fasterxml.jackson.core" % "jackson-core" % "2.6.3"
+		"org.json4s" % "json4s-native_2.11" % "3.3.0",
+		"ch.qos.logback" % "logback-classic" % "1.0.13" % "runtime",
+		"io.argonaut" %% "argonaut" % "6.0.4"
       ),
       scalateTemplateConfig in Compile <<= (sourceDirectory in Compile){ base =>
         Seq(

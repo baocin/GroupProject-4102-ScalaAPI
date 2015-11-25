@@ -40,7 +40,7 @@ class CardServlet extends CardapiStack {
     //draw the specified number of cards from the deck of id ID (randomly)
   }
   get("/deck/new/") {
-    multiParams("cards")
+    multiParams("cards")	//comma separated
 	params.getOrElse("cards", "no cards supplied")
 	
     //Make new deck, if cards is specified then make it out of those cards, otherwise use default deck
