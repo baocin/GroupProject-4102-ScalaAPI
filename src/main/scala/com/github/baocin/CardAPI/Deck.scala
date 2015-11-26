@@ -1,5 +1,6 @@
 package com.github.baocin.CardAPI
 
+import scala.util.Random
 import argonaut._, Argonaut._
 import scala.collection.mutable.ArrayBuffer
 
@@ -10,8 +11,11 @@ object JsonDeck {
 }
 
 class Deck(cards : Array[String]) {
-  var suits = Array("hearts", "spades", "diamonds", "clubs")
-  var ranks = Array("ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king")
+  //Array of possible suits (Hearts, Spaces, Diamonds, Clubs)
+  var suits = Array("H", "S", "D", "C")
+  //Array of possible ranks (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King)
+  var ranks = Array("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K")
+
   var cardList = ArrayBuffer[Card]()
   var id = 0;
 
@@ -19,12 +23,6 @@ class Deck(cards : Array[String]) {
     this(null)
     populateDefault();
   }
-
-  // override def this(cards : Array[String]) = {
-  //   this(cards)
-  //   populate(cards);
-  // }
-
 
   //populate the deck with cards from the given seq
   def populate(cards : Array[String]) {
@@ -39,9 +37,56 @@ class Deck(cards : Array[String]) {
     //     var newCard = new Card()
     //   }
     // }
+    //Iteration variables
+    var i = 0
+    var j = 0
+    var k = 0
+
+    //Loop through suits
+    for(i <- 0 to 3)
+    {
+
+      //Loop through ranks
+      for(j <- 0 to 12)
+      {
+
+        //Create instances of Card class and store to Deck's cards field
+        cardList.append(new Card(suits(i), ranks(j)))
+
+      }
+      k = k + 1
+
+    }
   }
 
+  def randomCard() : Card =
+  {
 
+    //Pick a random card from the array
+    var cardNumber = Random.nextInt(cards.length) - 1
+
+    return cardList(cardNumber)
+  }
+
+  override def toString() : String =
+  {
+    var representation : StringBuilder = new StringBuilder()
+
+    //Loop through all of the cards in the array
+    for(i <- 0 to (cards.length - 1))
+    {
+      representation.append(cardList(i).getSuit() + cardList(i).getRank() + " ")
+      println(cardList(i).getSuit() + cardList(i).getRank() + " ")
+    }
+
+    return representation.toString()
+  }
+
+  //Add a card to the deck
+  def addCard(cardToAdd: Card): Unit =
+  {
+    // cards(cardList.length - 1) = cardToAdd
+  }
   // Define codecs easily from case classes
 
 
