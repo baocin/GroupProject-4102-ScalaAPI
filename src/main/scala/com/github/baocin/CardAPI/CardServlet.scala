@@ -4,11 +4,12 @@ import org.scalatra._
 import scalate.ScalateSupport
 import argonaut._, Argonaut._
 import scala.collection.mutable.HashMap
+import scala.collection.mutable.ArrayBuffer
 import spray.json._
 import DefaultJsonProtocol._ // if you don't supply your own Protocol (see below)
 
 class CardServlet extends CardapiStack {
-  val map = scala.collection.mutable.HashMap.empty[Int,Deck]
+  val map = HashMap.empty[String,Deck]
 
   get("/") {
     <html>
@@ -27,25 +28,35 @@ class CardServlet extends CardapiStack {
   }
 
   get("/deck/:id/") {
-  	val mapID = params.getOrElse("id", halt(404)).toInt
-    Mapper.deckToJson(map(mapID));
+  	val mapID = params.getOrElse("id", halt(404))
+    map(mapID).toJsonString(2)
   }
   get("/deck/:id/remove/:card") {
-  	val mapID = params.getOrElse("id", halt(404)).toInt
+  	val mapID = params.getOrElse("id", halt(404))
     val cardName = params.getOrElse("card", halt(404))
-  	// map(mapID).removeCard(cardName)
-    println(mapID, " ", cardName)
-    Mapper.deckToJson(map(mapID));
+  	map(mapID).removeCard(cardName)
+    map(mapID).toJsonString(2)
   }
   get("/deck/:id/shuffle") {
     //return the shuffled deck of id ID
-    val mapID = params.getOrElse("id", halt(404)).toInt
-    //map(mapID).shuffle()
-
+    val mapID = params.getOrElse("id", halt(404))
+    map(mapID).shuffle
+    map(mapID).toJsonString(2)
   }
   get("/deck/:id/draw") {
+    val mapID = params.getOrElse("id", halt(404))
     val count : Int = params.getOrElse("count", "1").toInt
+    var removedCards = ArrayBuffer[Card]();
 
+    var i = 0;
+    for (i <- 0 to count){
+      var removedCard = map(mapID).randomCard();
+      removedCards.append(removedCard)
+      map(mapID).removeCard(removedCard)
+    }
+    var cardList = removedCards.toList
+    var jsonCardList = cardList.map( x => Mapper.cardToJsonCard(x))
+    jsonCardList.asJson.spaces2 //<------------------------------------------------------------------------
     //draw the specified number of cards from the deck of id ID (randomly)
   }
   get("/deck/new") {
@@ -62,13 +73,14 @@ class CardServlet extends CardapiStack {
 
     //Add the newly made deck to the HashMap
     map += (newDeck.id -> newDeck)
-
-    Mapper.deckToJson(newDeck);
+    println("Number of decks: " + map.size)
+    newDeck.toJsonString(2)
   }
 
   get("/card"){
   	var card = new Card("suit", "rank")
-  	Mapper.cardToJson(card)
+
+    card.toJsonString(2)
       //Utilities.convertToJson(new Card("suit_test", 999))
   }
 

@@ -10,6 +10,9 @@ object JsonCard {
 }
 
 class Card(var suit : String, var rank : String) {
+  var shortName : String = "shortname";
+  var longName : String = "longname";
+
   def this(cardID : String) {
     this(null, null)
   }
@@ -29,5 +32,25 @@ class Card(var suit : String, var rank : String) {
   def getSuit() : String =
   {
     return suit
+  }
+
+  def toJson : Json = {
+    var longNameField : Json.JsonField = "longName"
+    var shortNameField : Json.JsonField = "shortName"
+    var suitField : Json.JsonField = "suit"
+    var rankField : Json.JsonField = "rank"
+    val rawJson : Json = Json( longNameField := longName, shortNameField := shortName, suitField := suit, rankField := rank)
+    rawJson
+  }
+
+  def toJsonString(spacing : Int = 2) : String = {
+    val rawJson = toJson;
+    val resultJson = spacing match {
+      case 0 => rawJson.nospaces
+      case 2 => rawJson.spaces2
+      case 4 => rawJson.spaces4
+      case _ => rawJson.nospaces
+    }
+    resultJson
   }
 }
