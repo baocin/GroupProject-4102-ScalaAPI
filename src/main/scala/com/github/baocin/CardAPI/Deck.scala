@@ -4,12 +4,6 @@ import scala.util.Random
 import argonaut._, Argonaut._
 import scala.collection.mutable.ArrayBuffer
 
-// case class JsonDeck(cardList : List[JsonCard])
-// object JsonDeck {
-//   implicit def DeckCodecJson: CodecJson[JsonDeck] =
-//     casecodec1(JsonDeck.apply, JsonDeck.unapply)("cardList")
-// }
-
 class Deck(cards : Array[String]) {
   //Array of possible suits (Hearts, Spaces, Diamonds, Clubs)
   var suits = Array("H", "S", "D", "C")
@@ -70,14 +64,22 @@ class Deck(cards : Array[String]) {
 
   def shuffle {
     println("shuffling")
+    // var shuffledCardList = ArrayBuffer[Card](cardList)
+    cardList = Random.shuffle(cardList)
+
+    // cardList foreach {
+    //   case (key, value) =>
+    // }
+    // for (var c <- (0 to cardList.size-1)) = {
+    //   println(c)
+      // println("Swapping " + c.toJson + "  with  " + )
+    // }
   }
   //Add a card to the deck
-  def addCard(cardToAdd: Card) =
-  {
-    cardList.append(cardToAdd)
-  }
+  def addCard(cardToAdd: Card) = cardList.append(cardToAdd)
 
   def removeCard(cardToRemove : Card) {
+    // cardList.
     // cardList.remove(cardToRemove)
   }
 
