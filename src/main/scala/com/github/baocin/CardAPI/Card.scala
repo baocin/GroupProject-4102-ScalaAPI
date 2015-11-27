@@ -2,16 +2,9 @@ package com.github.baocin.CardAPI
 
 import argonaut._, Argonaut._
 
-// case class JsonCard(suit : String, rank : String)
-// object JsonCard {
-//   // Define codecs easily from case classes
-//   implicit def CardCodecJson: CodecJson[JsonCard] =
-//     casecodec2(JsonCard.apply, JsonCard.unapply)("suit", "rank")
-// }
-
 case class Card(var suit : String, var rank : String, var shortName : String, var longName : String) {
   def this(suit : String, rank : String) = this(suit, rank, suit+rank, null)
-
+  def this(shortName : String) = this(shortName(0).toString, shortName(1).toString, shortName, null)
   decodeLongName(suit, rank)
 
   def decodeLongName(suit : String, rank : String) = {

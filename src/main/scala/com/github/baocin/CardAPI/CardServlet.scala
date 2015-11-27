@@ -5,11 +5,18 @@ import scalate.ScalateSupport
 import argonaut._, Argonaut._
 import scala.collection.mutable.HashMap
 import scala.collection.mutable.ArrayBuffer
-import spray.json._
-import DefaultJsonProtocol._ // if you don't supply your own Protocol (see below)
 
 class CardServlet extends CardapiStack {
+  //A hash table to organize the decks user's create
   val map = HashMap.empty[String,Deck]
+
+  //Ensure there is always a testing deck with id of 0
+  map += ("0" -> new Deck())
+
+  //Error messages
+  val html404Error = "Error: 404\nCould not find Deck with that ID!"
+  val html400Error = "Error: 400\nBad request! See /help for instructions"
+  val deckEmptyError = "Error!\nDeck contains contains zero cards!"
 
   get("/") {
     <html>
@@ -27,41 +34,67 @@ class CardServlet extends CardapiStack {
     </html>
   }
 
-  get("/deck/:id/") {
-  	val mapID = params.getOrElse("id", halt(404))
-    map(mapID).toJsonString(2)
+  get("/help") {
+    <html>
+      <body>
+        READ ME
+      </body>
+    </html>
   }
-  get("/deck/:id/remove/:card") {
-  	val mapID = params.getOrElse("id", halt(404))
-    val cardName = params.getOrElse("card", halt(404))
+
+  get("/deck/:id/remove/:card/?") {
+  	val mapID = params.getOrElse("id", halt(404, html404Error))
+    val cardName = params.getOrElse("card", halt(400, html400Error))
+    if (map(mapID).cardList.length == 0) halt(400, deckEmptyError)
   	map(mapID).removeCard(cardName)
     map(mapID).toJsonString(2)
   }
-  get("/deck/:id/shuffle") {
+
+  get("/deck/:id/add/:card/?") {
+  	val mapID = params.getOrElse("id", halt(404, html404Error))
+    val cardName = params.getOrElse("card", halt(400, html400Error))
+  	map(mapID).addCard(cardName)
+    map(mapID).toJsonString(2)
+  }
+
+  get("/deck/:id/shuffle/?") {
     //return the shuffled deck of id ID
-    val mapID = params.getOrElse("id", halt(404))
+    val mapID = params.getOrElse("id", halt(404, html404Error))
+    try map(mapID) catch { case e : NoSuchElementException => halt(404, html404Error) }
     map(mapID).shuffle
     map(mapID).toJsonString(2)
   }
-  get("/deck/:id/draw") {
-    val mapID = params.getOrElse("id", halt(404))
-    val count : Int = params.getOrElse("count", "1").toInt
+
+  get("/deck/:id/draw/?") {
+    val mapID = params.getOrElse("id", halt(404, html404Error))
+    var count : Int = params.getOrElse("count", "1").toInt     //Must draw atleast 1 card
+    if (count > map(mapID).cardList.length) halt(400, html400Error)
+    if (map(mapID).cardList.length == 0) halt(400, deckEmptyError)
+
+    // var availableCards = map(mapID).cardList
     var removedCards = ArrayBuffer[Card]();
 
-    var i = 0;
-    for (i <- 0 to count){
+    var i = 1;
+    for (i <- 1 to count){
       var removedCard = map(mapID).randomCard();
       removedCards.append(removedCard)
       map(mapID).removeCard(removedCard)
     }
+
+    // var cardField : Json.JsonField = "cards"
     var cardList = removedCards.toList
-    var jsonCardList = cardList.map( x => x.toJson)
-    jsonCardList.asJson.spaces2 //<------------------------------------------------------------------------
-    //draw the specified number of cards from the deck of id ID (randomly)
+    var jsonCardList = cardList.map(x => x.toJson)
+    var rawJson = Json("remaining" -> map(mapID).cardList.length.asJson, "cards" -> jsonCardList.asJson)
+    rawJson.spaces2
   }
-  get("/deck/new") {
+
+  get("/deck/:id/?") {
+  	val mapID = params.getOrElse("id", halt(404, html404Error))
+    map(mapID).toJsonString(2)
+  }
+
+  get("/deck/new/?") {
     multiParams("cards")	//comma separated
-    val validCardsRegex = "([A-Za-z0-9][A-Za-z],?)+".r
   	var cards = params.getOrElse("cards", "")
     var newDeck : Deck = null;
 // (validCardsRegex match cards))
@@ -70,17 +103,34 @@ class CardServlet extends CardapiStack {
     }else{
       newDeck = new Deck(cards.split(","));
     }
-
     //Add the newly made deck to the HashMap
     map += (newDeck.id -> newDeck)
-    println("Number of decks: " + map.size)
     newDeck.toJsonString(2)
   }
 
-  get("/card"){
-  	var card = new Card("suit", "rank")
-    card.toJsonString(2)
+  //Do some basic error handling BEFORE the above routes
+  before ("/deck/:id/remove/:card*") {
+  	val mapID = params.getOrElse("id", halt(404, html404Error))
+    try map(mapID) catch { case e : NoSuchElementException => halt(404, html404Error) }
+    val cardName = params.getOrElse("card", halt(400, html400Error))
+    if (map(mapID).cardList.find(x => x.shortName == cardName).isEmpty) {
+      halt(404, "Error: 404\nSpecified card does not exist in this deck")
+    }
   }
 
+  // before ("/deck/:id/*/:card*") {
+  //   val cardName = params.getOrElse("card", halt(400, html400Error)).toUpperCase()
+  //   val validCardNameRegex = "(10 | [2-9AJQK])([HSDC])".r
+  //   cardName match {
+  //     // case validCardNameRegex(rank, suit) =>
+  //     case _ => halt(400,html400Error)
+  //   }
+  // }
+
+  before ("/deck/:id*") {
+  	val mapID = params.getOrElse("id", halt(404, html404Error))
+    if (mapID == "new") pass
+    try map(mapID) catch { case e : NoSuchElementException => halt(404, html404Error) }
+  }
 
 }

@@ -2,27 +2,27 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/aoi/Code/GroupProject-4102-ScalaAPI/src/main/scala/com/github/baocin/CardAPI/Deck.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/aoi/Code/GroupProject-4102-ScalaAPI/src/main/scala/com/github/baocin/CardAPI/Card.scala)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/aoi/Code/GroupProject-4102-ScalaAPI/src/main/scala/com/github/baocin/CardAPI/Deck.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/aoi/Code/GroupProject-4102-ScalaAPI/src/main/scala/com/github/baocin/CardAPI/Card.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/aoi/Code/GroupProject-4102-ScalaAPI/src/main/scala/com/github/baocin/CardAPI/Deck.scala)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/aoi/Code/GroupProject-4102-ScalaAPI/src/main/scala/com/github/baocin/CardAPI/Card.scala)[0m
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 3ae7466a, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7f2251a7, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk/jre/classes:/home/aoi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes:/home/aoi/.ivy2/cache/org.scalatra/scalatra_2.11/jars/scalatra_2.11-2.4.0.RC3.jar:/home/aoi/.ivy2/cache/org.scalatra/scalatra-common_2.11/jars/scalatra-common_2.11-2.4.0.RC3.jar:/home/aoi/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/aoi/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/jars/grizzled-slf4j_2.11-1.0.2.jar:/home/aoi/.ivy2/cache/org.scalatra.rl/rl_2.11/jars/rl_2.11-0.4.10.jar:/home/aoi/.ivy2/cache/com.googlecode.juniversalchardet/juniversalchardet/jars/juniversalchardet-1.0.3.jar:/home/aoi/.ivy2/cache/eu.medsea.mimeutil/mime-util/bundles/mime-util-2.1.3.jar:/home/aoi/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.2.jar:/home/aoi/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar:/home/aoi/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/aoi/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar:/home/aoi/.ivy2/cache/org.scalatra/scalatra-scalate_2.11/jars/scalatra-scalate_2.11-2.4.0.RC3.jar:/home/aoi/.ivy2/cache/org.scalatra.scalate/scalate-core_2.11/bundles/scalate-core_2.11-1.7.1.jar:/home/aoi/.ivy2/cache/org.scalatra.scalate/scalate-util_2.11/bundles/scalate-util_2.11-1.7.1.jar:/home/aoi/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar:/home/aoi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar:/home/aoi/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.3.0.jar:/home/aoi/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.3.0.jar:/home/aoi/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.3.0.jar:/home/aoi/.ivy2/cache/org.json4s/json4s-scalap_2.11/jars/json4s-scalap_2.11-3.3.0.jar:/home/aoi/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar:/home/aoi/.ivy2/cache/io.argonaut/argonaut_2.11/jars/argonaut_2.11-6.0.4.jar:/home/aoi/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.0.6.jar:/home/aoi/.ivy2/cache/io.spray/spray-json_2.11/bundles/spray-json_2.11-1.3.2.jar:/home/aoi/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 4.281526555 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.305968005 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

@@ -8,17 +8,17 @@ class Deck(cards : Array[String]) {
   //Array of possible suits (Hearts, Spaces, Diamonds, Clubs)
   var suits = Array("H", "S", "D", "C")
   //Array of possible ranks (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King)
-  var ranks = Array("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K")
+  var ranks = Array("A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K")
   var cardList = ArrayBuffer[Card]()
-  var id : String = "%X" format java.lang.System.identityHashCode(this);
+  var id : String = "%X" format java.lang.System.identityHashCode(this);    //Hexadecimal id
 
-  //def this(cards : Array[String]){
+  //Populate the deck with cards specified in cards parameter
   populate(cards);
-  //
 
+  //The empty constructor for the Deck
   def this() = {
-    this(null)
-    populateDefault();
+    this(null)  //call default constructor with no cards
+    populateDefault();  //populate with default 52 cards (4 suits, 13 cards in each)
   }
 
   //populate the deck with cards from the given seq
@@ -45,7 +45,7 @@ class Deck(cards : Array[String]) {
   def randomCard() : Card =
   {
     //Pick a random card from the array
-    var cardNumber = Random.nextInt(cards.length) - 1
+    var cardNumber = Random.nextInt(cardList.length)
     cardList(cardNumber)
   }
 
@@ -63,35 +63,26 @@ class Deck(cards : Array[String]) {
   }
 
   def shuffle {
-    println("shuffling")
-    // var shuffledCardList = ArrayBuffer[Card](cardList)
     cardList = Random.shuffle(cardList)
-
-    // cardList foreach {
-    //   case (key, value) =>
-    // }
-    // for (var c <- (0 to cardList.size-1)) = {
-    //   println(c)
-      // println("Swapping " + c.toJson + "  with  " + )
-    // }
   }
   //Add a card to the deck
   def addCard(cardToAdd: Card) = cardList.append(cardToAdd)
+  def addCard(cardName : String) = cardList.append(new Card(cardName))
+
 
   def removeCard(cardToRemove : Card) {
-    // cardList.
-    // cardList.remove(cardToRemove)
+    cardList.remove(cardList.indexWhere(x => x == cardToRemove))
   }
 
   def removeCard(cardName : String) {
-    println(cardList.filter(_.shortName == cardName))
+    cardList.remove(cardList.indexWhere(x => x.shortName == cardName))
   }
 
   def toJson : Json = {
     var cardField : Json.JsonField = "cards"
     var cardList = this.cardList.toList
     var jsonCardList = cardList.map( x => x.toJson)
-    val rawJson : Json = Json("id" := id, cardField := jsonCardList)
+    val rawJson : Json = Json("id" := id, "size" := cardList.length, cardField := jsonCardList)
     rawJson
   }
 
