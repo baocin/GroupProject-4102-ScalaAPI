@@ -35,11 +35,13 @@ class CardServlet extends CardapiStack {
   }
 
   get("/help") {
-    <html>
-      <body>
+    redirect("/help.html")
+  }
 
-      </body>
-    </html>
+  get("/deck/:id/removeAll") {
+  	val mapID = params.getOrElse("id", halt(404, html404Error))
+  	map(mapID).cardList.clear()
+    map(mapID).toJsonString(2)
   }
 
   get("/deck/:id/remove/:card/?") {

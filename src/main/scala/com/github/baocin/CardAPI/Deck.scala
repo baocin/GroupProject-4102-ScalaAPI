@@ -2,12 +2,11 @@ package com.github.baocin.CardAPI
 
 import scala.util.Random
 import argonaut._, Argonaut._
-import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.ArrayBuffer   //Scala equivalent of Array List of Java
 
 class Deck(cards : Array[String]) {
-  //Array of possible suits (Hearts, Spaces, Diamonds, Clubs)
-  //Array of possible ranks (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King)
   var cardList = ArrayBuffer[Card]()
+  //Optional parenthesis!
   var id : String = "%X" format java.lang.System.identityHashCode(this);    //Hexadecimal id
 
   //Populate the deck with cards specified in cards parameter
@@ -41,11 +40,12 @@ class Deck(cards : Array[String]) {
 
   def randomCard() : Card =
   {
-    //Pick a random card from the array
+    //Pick a random card from the array buffer
     var cardNumber = Random.nextInt(cardList.length)
     cardList(cardNumber)
   }
 
+  //Unneeded in program but used in testing
   override def toString() : String =
   {
     var representation : StringBuilder = new StringBuilder()

@@ -1,0 +1,32 @@
+body {
+
+
+}
+
+.container {
+	width: 960px;
+
+
+}
+
+.title,h1,h2,h3,h4 {
+
+display: -webkit-flex;
+  display: flex;
+flex-direction: column;
+-webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+
+}
+
+
+.important {
+	text-align:center;
+}
+
+.toc {
+
+
+}
