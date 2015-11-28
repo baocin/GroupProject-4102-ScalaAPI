@@ -1,6 +1,6 @@
 ITCS 4102 Card API Project
 =======================
-####Group Members: Michael Pedersen, Colin Murphy, Kim Brown, James Schaffter, Khadija Almaskeen, Joao Caina 
+#####Group Members: Michael Pedersen, Colin Murphy, Kim Brown, James Schaffter, Khadija Almaskeen, Joao Caina 
 
 ###Mac or Linux Install
 1. Download a git client:
