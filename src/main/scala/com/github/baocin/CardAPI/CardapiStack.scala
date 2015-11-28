@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest
 import collection.mutable
 
 trait CardapiStack extends ScalatraServlet with ScalateSupport {
-
   notFound {
     // remove content type in case it was set through an action
     contentType = null

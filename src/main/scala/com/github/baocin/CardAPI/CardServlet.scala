@@ -10,7 +10,7 @@ class CardServlet extends CardapiStack {
   //A hash table to organize the decks user's create
   val map = HashMap.empty[String,Deck]
 
-  //Ensure there is always a testing deck with id of 0
+  //Ensure there is always a toUpperCaseting deck with id of 0
   map += ("0" -> new Deck())
 
   //Error messages
@@ -37,7 +37,7 @@ class CardServlet extends CardapiStack {
   get("/help") {
     <html>
       <body>
-        READ ME
+
       </body>
     </html>
   }
@@ -52,8 +52,8 @@ class CardServlet extends CardapiStack {
 
   get("/deck/:id/add/:card/?") {
   	val mapID = params.getOrElse("id", halt(404, html404Error))
-    val cardName = params.getOrElse("card", halt(400, html400Error))
-  	map(mapID).addCard(cardName)
+    val cardShortName = params.getOrElse("card", halt(400, html400Error))
+  	var status = map(mapID).addCard(cardShortName)
     map(mapID).toJsonString(2)
   }
 
