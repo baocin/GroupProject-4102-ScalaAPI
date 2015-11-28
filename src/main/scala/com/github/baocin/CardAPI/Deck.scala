@@ -62,6 +62,7 @@ class Deck(cards : Array[String]) {
     cardList = Random.shuffle(cardList)
   }
 
+  //Can get rid of some curly braces if function fits on one line
   def addCard(cardToAdd: Card) = cardList.append(cardToAdd)
   def addCard(cardShortName : String) = {
     cardList.append(new Card(cardShortName))

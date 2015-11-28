@@ -2,11 +2,14 @@ package com.github.baocin.CardAPI
 
 import argonaut._, Argonaut._
 
+//Static fields & methods for a Card - like available ranks (Ace) and suits(Hearts)
 object Card {
-  var suits = Array("H", "S", "D", "C")
-  val expandedSuitNames = Array("Hearts", "Spades", "Diamonds", "Clubs")
-  var ranks = Array("A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K")
+  val ranks = Array("A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K")
   val expandedRankNames = Array("Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King")
+  val suits = Array("H", "S", "D", "C")
+  val expandedSuitNames = Array("Hearts", "Spades", "Diamonds", "Clubs")
+  val validShortNameRegex = "([2-9AJQK]|10)([HSDC])".r
+
 }
 
 //Parameters autogenerate fields, getters, and setters(if defined with var) in the class

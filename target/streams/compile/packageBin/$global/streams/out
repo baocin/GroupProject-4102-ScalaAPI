@@ -22,6 +22,8 @@
 [0m[[0mdebug[0m] [0m	  /home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes/com/github/baocin/CardAPI/CardServlet$$anonfun$11$$anonfun$13.class[0m
 [0m[[0mdebug[0m] [0m	com/github/baocin/CardAPI/CardServlet$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes/com/github/baocin/CardAPI/CardServlet$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	com/github/baocin/CardAPI/CardServlet$$anonfun$24$$anonfun$25.class[0m
+[0m[[0mdebug[0m] [0m	  /home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes/com/github/baocin/CardAPI/CardServlet$$anonfun$24$$anonfun$25.class[0m
 [0m[[0mdebug[0m] [0m	templates/views[0m
 [0m[[0mdebug[0m] [0m	  /home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes/templates/views[0m
 [0m[[0mdebug[0m] [0m	com/github/baocin/CardAPI/Card$.class[0m
@@ -82,6 +84,8 @@
 [0m[[0mdebug[0m] [0m	  /home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes/com/github/baocin/CardAPI/CardServlet$$anonfun$2$$anonfun$7.class[0m
 [0m[[0mdebug[0m] [0m	com/github/baocin/CardAPI/CardServlet$$anonfun$3$$anonfun$4.class[0m
 [0m[[0mdebug[0m] [0m	  /home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes/com/github/baocin/CardAPI/CardServlet$$anonfun$3$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	com/github/baocin/CardAPI/CardServlet$$anonfun$24.class[0m
+[0m[[0mdebug[0m] [0m	  /home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes/com/github/baocin/CardAPI/CardServlet$$anonfun$24.class[0m
 [0m[[0mdebug[0m] [0m	com/github/baocin/CardAPI/Deck$$anonfun$populateDefault$1$$anonfun$apply$mcVI$sp$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/aoi/Code/GroupProject-4102-ScalaAPI/target/scala-2.11/classes/com/github/baocin/CardAPI/Deck$$anonfun$populateDefault$1$$anonfun$apply$mcVI$sp$1.class[0m
 [0m[[0mdebug[0m] [0m	com/github/baocin/CardAPI/CardServlet.class[0m

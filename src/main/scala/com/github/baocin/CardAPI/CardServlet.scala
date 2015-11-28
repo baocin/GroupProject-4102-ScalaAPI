@@ -10,7 +10,7 @@ class CardServlet extends CardapiStack {
   //A hash table to organize the decks user's create
   val map = HashMap.empty[String,Deck]
 
-  //Ensure there is always a toUpperCaseting deck with id of 0
+  //Ensure there is always a testing deck with id of 0  (so I can keep the same testing links after restarts)
   map += ("0" -> new Deck())
 
   //Error messages
@@ -118,14 +118,14 @@ class CardServlet extends CardapiStack {
     }
   }
 
-  // before ("/deck/:id/*/:card*") {
-  //   val cardName = params.getOrElse("card", halt(400, html400Error)).toUpperCase()
-  //   val validCardNameRegex = "(10 | [2-9AJQK])([HSDC])".r
-  //   cardName match {
-  //     // case validCardNameRegex(rank, suit) =>
-  //     case _ => halt(400,html400Error)
-  //   }
-  // }
+  before ("/deck/:id/*/:card*") {
+    val cardShortName = params.getOrElse("card", halt(400, html400Error)).toUpperCase()
+    //Can drop off the parenthesis in most cases similar to Ruby's poetry mode
+    if ((Card.validShortNameRegex unapplySeq cardShortName) == None) {
+      halt(400,html400Error)
+    }
+    //else continue to the next matching route (ex. add or remove card)
+  }
 
   before ("/deck/:id*") {
   	val mapID = params.getOrElse("id", halt(404, html404Error))
