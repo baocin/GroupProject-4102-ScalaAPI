@@ -31,7 +31,7 @@ object CardapiBuild extends Build {
         "javax.servlet" % "javax.servlet-api" % "3.1.0" % "provided",
 		    "org.json4s" % "json4s-native_2.11" % "3.3.0",
 		    "io.argonaut" %% "argonaut" % "6.0.4",
-        "io.spray" %%  "spray-json" % "1.3.2"
+        "com.weiglewilczek.slf4s" % "slf4s_2.9.1" % "1.0.7"
       ),
       scalateTemplateConfig in Compile <<= (sourceDirectory in Compile){ base =>
         Seq(

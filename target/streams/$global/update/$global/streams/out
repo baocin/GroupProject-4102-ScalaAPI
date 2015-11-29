@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26be29d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b15b01[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
@@ -411,34 +411,41 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.argonaut#argonaut_2.11;6.0.4->org.scalaz#scalaz-core_2.11;7.0.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.11;1.3.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.spray#spray-json_2.11;1.3.2 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.11;1.3.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: io.spray#spray-json_2.11;1.3.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/aoi/.ivy2/local/io.spray/spray-json_2.11/1.3.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for io.spray#spray-json_2.11;1.3.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for io.spray#spray-json_2.11;1.3.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom (1.3.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.spray#spray-json_2.11;1.3.2!spray-json_2.11.pom(pom.original) (195ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/aoi/.ivy2/local/io.spray/spray-json_2.11/1.3.2/bundles/spray-json_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar[0m
-[0m[[0mdebug[0m] [0m	found io.spray#spray-json_2.11;1.3.2 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/aoi/.ivy2/local/com.weiglewilczek.slf4s/slf4s_2.9.1/1.0.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.pom (1.0.7)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7!slf4s_2.9.1.pom(pom.original) (158ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/aoi/.ivy2/local/com.weiglewilczek.slf4s/slf4s_2.9.1/1.0.7/jars/slf4s_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m	found com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [compile][0m
@@ -712,17 +719,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.1.2 {runtime=[default(compile)]}[0m
@@ -1025,17 +1039,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
@@ -1809,17 +1830,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->javax.servlet#javax.servlet-api;3.1.0 [provided->default(compile)][0m
@@ -2106,17 +2134,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
@@ -2420,17 +2455,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.0.6->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.argonaut#argonaut_2.11;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.2 [runtime->compile][0m
@@ -3082,12 +3124,12 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra#scalatra-scalate_2.11;2.4.0.RC3!scalatra-scalate_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-native_2.11;3.3.0!json4s-native_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.argonaut#argonaut_2.11;6.0.4!argonaut_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.spray#spray-json_2.11;1.3.2!spray-json_2.11.jar(bundle) (393ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/weiglewilczek/slf4s/slf4s_2.9.1/1.0.7/slf4s_2.9.1-1.0.7.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.weiglewilczek.slf4s#slf4s_2.9.1;1.0.7!slf4s_2.9.1.jar (496ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra#scalatra-common_2.11;2.4.0.RC3!scalatra-common_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar[0m
@@ -3166,7 +3208,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.mojolly.scalate#scalate-generator_2.11;0.5.0!scalate-generator_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra.scalate#scalate-core_2.11;1.7.0!scalate-core_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatra.scalate#scalate-util_2.11;1.7.0!scalate-util_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3169ms :: artifacts dl 461ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2707ms :: artifacts dl 576ms[0m
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT compile produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT runtime produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT test produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-test.xml[0m
@@ -3182,10 +3224,10 @@
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT scala-tool produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT container produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-container.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.github.baocin#cardapi_2.11;0.1.0-SNAPSHOT scalate produced in /home/aoi/Code/GroupProject-4102-ScalaAPI/target/resolution-cache/reports/com.github.baocin-cardapi_2.11-scalate.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (3169ms resolve - 461ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2707ms resolve - 576ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
-[0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.11.0, 2.11.6) -> 2.11.7[0m
+[0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.11.0, 2.11.6, 2.9.1) -> 2.11.7[0m
 [0m[[33mwarn[0m] [0mTo force scalaVersion, add the following:[0m
 [0m[[33mwarn[0m] [0m	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }[0m
 [0m[[33mwarn[0m] [0mRun 'evicted' to see detailed eviction warnings[0m

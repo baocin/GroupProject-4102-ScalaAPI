@@ -4,7 +4,7 @@
 		module="cardapi_2.11"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20151125153907"
+		publication="20151128220656"
 	>
 		<description>
 		CardAPI
@@ -47,6 +47,6 @@
 		<dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0" conf="provided->default(compile)"/>
 		<dependency org="org.json4s" name="json4s-native_2.11" rev="3.3.0" conf="compile->default(compile)"/>
 		<dependency org="io.argonaut" name="argonaut_2.11" rev="6.0.4" conf="compile->default(compile)"/>
-		<dependency org="io.spray" name="spray-json_2.11" rev="1.3.2" conf="compile->default(compile)"/>
+		<dependency org="com.weiglewilczek.slf4s" name="slf4s_2.9.1" rev="1.0.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

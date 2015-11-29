@@ -4,7 +4,7 @@ import scala.util.Random
 import argonaut._, Argonaut._
 import scala.collection.mutable.ArrayBuffer   //Scala equivalent of Array List of Java
 
-class Deck(cards : Array[String]) {
+class Deck(cards : Array[String]) extends Logging {
   var cardList = ArrayBuffer[Card]()
   //Optional parenthesis!
   var id : String = "%X" format java.lang.System.identityHashCode(this);    //Hexadecimal id
@@ -14,13 +14,15 @@ class Deck(cards : Array[String]) {
 
   //The empty constructor for the Deck
   def this() = {
-    this(null)  //call default constructor with no cards
+    this(Array[String]())  //call default constructor with no cards
     populateDefault();  //populate with default 52 cards (4 suits, 13 cards in each)
   }
 
   //populate the deck with cards from the given seq
   def populate(cards : Array[String]) {
-
+    for (cardShortName <- cards){
+      addCard(cardShortName)
+    }
   }
 
   //populate the deck with default 52 cards

@@ -50,3 +50,8 @@ container:startcontainer:start
 container:start
 ~container:start
 container:start
+~container:start
+container:start
+update
+container:start
+~container:start
