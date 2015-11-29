@@ -25,12 +25,8 @@
   <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.3.0.jar"/>
   <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/org.json4s/json4s-scalap_2.11/jars/json4s-scalap_2.11-3.3.0.jar"/>
   <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar"/>
-  <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/org.json4s/json4s-jackson_2.11/jars/json4s-jackson_2.11-3.3.0.jar"/>
-  <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.6.3.jar"/>
-  <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.6.3.jar"/>
-  <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.6.3.jar"/>
-  <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/bundles/jackson-module-scala_2.11-2.6.3.jar"/>
-  <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.6.3.jar"/>
+  <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/io.argonaut/argonaut_2.11/jars/argonaut_2.11-6.0.4.jar"/>
+  <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/com.weiglewilczek.slf4s/slf4s_2.9.1/jars/slf4s_2.9.1-1.0.7.jar"/>
   <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar"/>
   <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.2.jar"/>
   <classpathentry kind="lib" path="/home/aoi/.ivy2/cache/org.scalatra/scalatra-specs2_2.11/jars/scalatra-specs2_2.11-2.4.0.RC3.jar"/>

@@ -55,3 +55,7 @@ container:start
 update
 container:start
 ~container:start
+container:start
+browse
+eclipse
+container:start

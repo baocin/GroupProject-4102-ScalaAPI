@@ -10,7 +10,6 @@
   <h5 id="group-members-michael-pedersen-colin-murphy-kim-brown-james-schaffter-khadija-almaskeen-joao-caina">Michael Pedersen, Colin Murphy, Kim Brown, James Schaffter, Khadija Almaskeen, Joao Caina</h5>
   </div>
 
-
   <h3 id="mac-or-linux-install">Mac or Linux Install</h3>
 
   <ol>
@@ -23,8 +22,6 @@
   (Ignore the $ and &gt; they represent the terminal prompt)</li>
   </ol>
 
-
-
   <pre class="prettyprint"><code class=" hljs livecodeserver">
   <span class="hljs-comment">// Navigate into the cloned directory</span>
   $ cd GroupProject-<span class="hljs-number">4102</span>-ScalaAPI<span class="hljs-comment">
@@ -32,8 +29,10 @@
   $ ./sbt<span class="hljs-comment">
   // The following command tells SBT to run the API. </span>
   &gt; container:start<span class="hljs-comment">
-  // Finally "browse" should open your default web </span>
-  &gt; browse</code></pre>
+  // Finally open your web browser and go to "http://localhost:8080/"</span>
+  <span class="hljs-comment">//To rebuild the project simply press Enter and re-enter the container:start command</span>
+  <span class="hljs-comment">//Press <strong>CTRL-C</strong> at any time to stop SBT</span>
+  </code></pre>
 
 
 
@@ -41,7 +40,7 @@
 
   <ol>
   <li>Download and Install <a href="https://www.cygwin.com/">Cygwin</a></li>
-  <li>Be sure to select during install the “git” package from the “devel” folder during install. It should show up just by searching for “git”. <br>
+  <li>Be sure to select during install the "git" package from the "devel" folder during install. It should show up just by searching for "git". <br>
   <img src="http://i.stack.imgur.com/zUg4N.png" alt="Where Git is located in the Cygwin install" title=""></li>
   <li>Open up a Cygwin terminal and then follow the Mac or Linux instructions above.</li>
   </ol>
@@ -57,15 +56,16 @@
 
 
 
-  <pre class="prettyprint"><code class=" hljs ruby"><span class="hljs-comment"># Landing page of the API to explain its purpose</span>
+  <pre class="prettyprint"><code class=" hljs ruby"><span class="hljs-comment"># Landing page of the API</span>
   <span class="hljs-constant">GET</span> /
-  <span class="hljs-comment"># Create a new Deck. The JSON of the new deck is returned along with the deck's unique ID. The trailing backslash does not matter (as denoted by the '?')</span>
+  <span class="hljs-comment"># Create a new Deck. The JSON of the new deck is returned along with the deck's unique ID. The trailing backslash is optional. To make a deck of custom cards add "?cards=" to the end of this URL and then list the short names of the cards you wish to add, separated with commas.</span>
+  <span class="hljs-comment"># Card Short Names: 8H = Eight of Hearts, 10C = Ten of Clubs, AD = Ace of Diamonds, QS = Queen of Spades, etc - see http://localhost:8080/deck/0/ for examples</span>
   <span class="hljs-constant">GET</span> /deck/new/?
   <span class="hljs-comment"># Retreive the JSON of a previously created deck by putting the deck ID in the URL</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/</span>?
-  <span class="hljs-comment"># To do operations on a deck, first select it by its ID, name the operation, and add parameters depending on the operation</span>
+  <span class="hljs-comment"># To do operations on a deck, first select it by its ID, name the operation, and add parameters, if needed</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/draw/</span>?
-  <span class="hljs-comment"># To add a card to an existing deck pass the short name of the card as a parameter (8H = Eight of Hearts, 10C = Ten of Clubs, AD = Ace of Diamonds, QS = Queen of Spades, etc)</span>
+  <span class="hljs-comment"># To add a card to an existing deck pass the short name of the card as a parameter.</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/add/</span><span class="hljs-symbol">:card/</span>?
   <span class="hljs-comment"># Remove is setup the same as add. Be sure that card exists in the deck though!</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/</span><span class="hljs-symbol">:card/</span>?
@@ -73,9 +73,8 @@
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/shuffle/</span>?
   <span class="hljs-comment"># Delete all cards from the specified Deck.</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/removeAll/</span>?
-  <span class="hljs-comment"># This page but on the Internet. Woah.</span>
+  <span class="hljs-comment"># This page but better!</span>
   <span class="hljs-constant">GET</span> /help</code></pre>
-
 
 
   <h2 id="code">Code</h2>

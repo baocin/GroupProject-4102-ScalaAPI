@@ -15,20 +15,16 @@ object Card{
 class Card(var rank : String, var suit : String, var shortName : String, var longName : String) extends Logging{
   //Auxilliary constructors
   def this(rank : String, suit : String) = {
-    this(rank, suit, rank+suit, "")
-    //longName = decodeShortName.right.get;
-    
+    this(rank, suit, rank+suit, "")    
     decodeShortName match {
       case Left(x) => {
+        //Can create an exception just as easily as in Java
         throw new InvalidNameException("Could not decode short name into long name!") //something bad happened... pass it up to the call
-    //    Left("Could not decode short name into long name!") //something bad happened... pass it up to the call
       }
       case Right(x) => {
         longName = x //Good! Expected result
       }
     }
-    //longName = decodeShortName.right.get
-    logger.info("Decoded long name for " + shortName + " to " + longName);
   }
   def this(shortName : String) = this(shortName.slice(0, shortName.length-1), shortName.slice(shortName.length-1, shortName.length))
 
