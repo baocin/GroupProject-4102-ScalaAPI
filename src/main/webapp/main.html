@@ -1,0 +1,55 @@
+<html
+<head>
+<link href="sylesheets/markdown.css" rel="stylesheet" type="text/css" />
+<link href="sylesheets/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+  <div class="title">
+  <h1 id="itcs-4102-card-api-project">ITCS 4102 Card API Project</h1>
+  <h5 id="group-members-michael-pedersen-colin-murphy-kim-brown-james-schaffter-khadija-almaskeen-joao-caina">Michael Pedersen, Colin Murphy, Kim Brown, James Schaffter, Khadija Almaskeen, Joao Caina</h5>
+  </div>
+
+  <h3 id="technolgy">Technology</h3>
+  <div class="technolgyContainer">
+    <div class="item">
+      <a href="http://www.scala-lang.org/">
+      <img id="scalalogo" src="images/Scala_Logo.png" alt="Scala Logo">
+      <p>Scala</p></a>
+    </div>
+    <div class="item">
+      <a href="http://scalatra.org/">
+      <img src="images/Scalatra_Logo.png" alt="Scalatra Logo">
+      <p>Scalatra</p></a>
+    </div>
+    <div class="item">
+      <a href="http://argonaut.io/">
+      <img src="images/Argonaut_Logo.png" alt="Argonaut Logo">
+      <p>Argonaut</p></a>
+    </div>
+  </div>
+
+  <h3 id="methods">Methods</h3>
+
+  <pre class="prettyprint"><code class=" hljs ruby"><span class="hljs-comment"># Landing page of the API to explain its purpose</span>
+  <span class="hljs-constant">GET</span> /
+  <span class="hljs-comment"># Create a new Deck. The JSON of the new deck is returned along with the deck's unique ID. The trailing backslash does not matter (as denoted by the '?')</span>
+  <span class="hljs-constant">GET</span> /deck/new/?
+  <span class="hljs-comment"># Retreive the JSON of a previously created deck by putting the deck ID in the URL</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/</span>?
+  <span class="hljs-comment"># To do operations on a deck, first select it by its ID, name the operation, and add parameters depending on the operation</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/draw/</span>?
+  <span class="hljs-comment"># To add a card to an existing deck pass the short name of the card as a parameter (8H = Eight of Hearts, 10C = Ten of Clubs, AD = Ace of Diamonds, QS = Queen of Spades, etc)</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/add/</span><span class="hljs-symbol">:card/</span>?
+  <span class="hljs-comment"># Remove is setup the same as add. Be sure that card exists in the deck though!</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/</span><span class="hljs-symbol">:card/</span>?
+  <span class="hljs-comment"># Jumble up the deck to prevent cheating!</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/shuffle/</span>?
+  <span class="hljs-comment"># Delete all cards from the specified Deck.</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/removeAll/</span>?
+  <span class="hljs-comment"># This page but on the Internet. Woah.</span>
+  <span class="hljs-constant">GET</span> /help</code></pre>
+
+</div>
+</body>
+</html

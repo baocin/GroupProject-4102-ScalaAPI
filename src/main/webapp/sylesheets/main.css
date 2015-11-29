@@ -26,7 +26,33 @@ flex-direction: column;
 	text-align:center;
 }
 
-.toc {
+.technolgyContainer {
+	display: -webkit-flex;
+	  display: flex;
+		flex-direction:row;
 
+}
+.technolgyContainer img {
+	 width:120px;
+	 height:100px;
+	margin:auto;
+	/*width:100%;*/
+}
 
+.technolgyContainer a {
+	color: #000000; text-decoration: none;
+	text-align:center;
+
+}
+
+#scalalogo {
+	width:80px;
+}
+
+.technolgyContainer .item {
+	flex:1;
+
+	display: -webkit-flex;
+	  display: flex;
+	flex-direction: column;
 }

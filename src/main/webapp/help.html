@@ -5,86 +5,86 @@
 </head>
 <body>
 <div class="container">
-<div class="title">
-<h1 id="itcs-4102-card-api-project">ITCS 4102 Card API Project</h1>
-<h4 id="group-members-michael-pedersen-colin-murphy-kimberly">Group Members: Michael Pedersen, Colin Murphy, Kimberly</h4>
-</div>
-
-<hr>
-
-<h3 id="mac-or-linux">Mac or Linux Install</h3>
-
-<ol>
-<li>Download a git client: <br>
-<ul><li>Terminal Client: <a href="https://www.git-scm.com/downloads">https://www.git-scm.com/downloads</a></li>
-<li>GUI Client: <a href="https://www.git-scm.com/downloads/guis">https://www.git-scm.com/downloads/guis</a></li></ul></li>
-<li>Clone the project repository from here:  <br>
-<ul><li><a href="https://github.com/baocin/GroupProject-4102-ScalaAPI">https://github.com/baocin/GroupProject-4102-ScalaAPI</a></li></ul></li>
-<li>Run the following commands.  <br>
-(Ignore the $ and &gt; they represent the terminal prompt)</li>
-</ol>
+  <div class="title">
+  <h1 id="itcs-4102-card-api-project">ITCS 4102 Card API Project</h1>
+  <h5 id="group-members-michael-pedersen-colin-murphy-kim-brown-james-schaffter-khadija-almaskeen-joao-caina">Michael Pedersen, Colin Murphy, Kim Brown, James Schaffter, Khadija Almaskeen, Joao Caina</h5>
+  </div>
 
 
+  <h3 id="mac-or-linux-install">Mac or Linux Install</h3>
 
-<pre class="prettyprint"><code class=" hljs livecodeserver">// Navigate <span class="hljs-keyword">into</span> <span class="hljs-operator">the</span> cloned <span class="hljs-built_in">directory</span>
-$ cd GroupProject-<span class="hljs-number">4102</span>-ScalaAPI<span class="hljs-comment">
-// Execute SBT (Scala Build Program) to compile everything and download necessary libraries.</span>
-$ ./sbt<span class="hljs-comment">
-// The following command tells SBT to run the API. </span>
-&gt; container:start<span class="hljs-comment">
-// Finally "browse" should open your default web </span>
-&gt; browse</code></pre>
-
-
-<h3 id="windows">Windows Install</h3>
-
-<ol>
-<li>Download and Install <a href="https://www.cygwin.com/">Cygwin</a></li>
-<li>Be sure to select during install the “git” package from the “devel” folder during install. It should show up just by searching for “git”. <br>
-<img src="http://i.stack.imgur.com/zUg4N.png" alt="Where Git is located in the Cygwin install" title=""></li>
-<li>Open up a Cygwin terminal and then follow the Mac or Linux instructions above.</li>
-</ol>
-
-<p class="important" ><strong>If you are unable to get it working please contact us.</strong> <br>
-<strong>A backup will be available at <a href="http://aoi.us.to:8080">http://aoi.us.to:8080</a></strong></p>
-
-<br/>
-
-<h3 id="methods">Methods</h3>
-
-<p>Starting from the base URL of “<a href="http://localhost:8080/">http://localhost:8080/</a></p>
-
-<pre class="prettyprint"><code class=" hljs ruby"><span class="hljs-comment"># Landing page of the API to explain its purpose</span>
-<span class="hljs-constant">GET</span> /
-<span class="hljs-comment"># Create a new Deck. The JSON of the new deck is returned along with the deck's unique ID. The trailing backslash does not matter (as denoted by the '?')</span>
-<span class="hljs-constant">GET</span> /deck/new/?
-<span class="hljs-comment"># Retreive the JSON of a previously created deck by putting the deck ID in the URL</span>
-<span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/</span>?
-<span class="hljs-comment"># To do operations on a deck, first select it by its ID, name the operation, and add parameters depending on the operation</span>
-<span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/draw/</span>?
-<span class="hljs-comment"># To add a card to an existing deck pass the short name of the card as a parameter (8H = Eight of Hearts, 10C = Ten of Clubs, AD = Ace of Diamonds, QS = Queen of Spades, etc)</span>
-<span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/add/</span><span class="hljs-symbol">:card/</span>?
-<span class="hljs-comment"># Remove is setup the same as add. Be sure that card exists in the deck though!</span>
-<span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/</span><span class="hljs-symbol">:card/</span>?
-<span class="hljs-comment"># Jumble up the deck to prevent cheating!</span>
-<span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/shuffle/</span>?
-<span class="hljs-comment"># Delete all cards from the specified Deck.</span>
-<span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/removeAll/</span>?
-<span class="hljs-comment"># This page but on the Internet. Woah.</span>
-<span class="hljs-constant">GET</span> /help</code></pre>
-
-<br/>
-
-<h2 id="code">Code</h2>
-
-<hr>
-
-<p>All project specific Scala code is inside of the cloned git repository. Specifically the path (assuming you’re at the top of the cloned repository folder) is <em>src/main/scala/com/github/baocin/CardAPI/</em>. The main classes are <strong>Card</strong> and <strong>Deck</strong> contain the majority of the code while </p>
-
-<p>These files can also be directly accessed from Github by the link below: <br>
-<a href="https://github.com/baocin/GroupProject-4102-ScalaAPI/tree/master/src/main/scala/com/github/baocin/CardAPI">https://github.com/baocin/GroupProject-4102-ScalaAPI/tree/master/src/main/scala/com/github/baocin/CardAPI</a></p>
+  <ol>
+  <li>Download a git client: <br>
+  <ul><li>Terminal Client: <a href="https://www.git-scm.com/downloads">https://www.git-scm.com/downloads</a></li>
+  <li>GUI Client: <a href="https://www.git-scm.com/downloads/guis">https://www.git-scm.com/downloads/guis</a></li></ul></li>
+  <li>Clone the project repository from here:  <br>
+  <ul><li><a href="https://github.com/baocin/GroupProject-4102-ScalaAPI">https://github.com/baocin/GroupProject-4102-ScalaAPI</a></li></ul></li>
+  <li>Run the following commands.  <br>
+  (Ignore the $ and &gt; they represent the terminal prompt)</li>
+  </ol>
 
 
+
+  <pre class="prettyprint"><code class=" hljs livecodeserver">// Navigate <span class="hljs-keyword">into</span> <span class="hljs-operator">the</span> cloned <span class="hljs-built_in">directory</span>
+  $ cd GroupProject-<span class="hljs-number">4102</span>-ScalaAPI<span class="hljs-comment">
+  // Execute SBT (Scala Build Program) to compile everything and download necessary libraries.</span>
+  $ ./sbt<span class="hljs-comment">
+  // The following command tells SBT to run the API. </span>
+  &gt; container:start<span class="hljs-comment">
+  // Finally "browse" should open your default web </span>
+  &gt; browse</code></pre>
+
+
+
+  <h3 id="windows-install">Windows Install</h3>
+
+  <ol>
+  <li>Download and Install <a href="https://www.cygwin.com/">Cygwin</a></li>
+  <li>Be sure to select during install the “git” package from the “devel” folder during install. It should show up just by searching for “git”. <br>
+  <img src="http://i.stack.imgur.com/zUg4N.png" alt="Where Git is located in the Cygwin install" title=""></li>
+  <li>Open up a Cygwin terminal and then follow the Mac or Linux instructions above.</li>
+  </ol>
+
+  <p><strong>If you are unable to get it working please contact us.</strong> <br>
+  <strong>A backup will be available at <a href="http://aoi.us.to:8080">http://aoi.us.to:8080</a></strong></p>
+
+
+
+  <h3 id="methods">Methods</h3>
+
+  <p>Starting from the base URL of <a href="http://localhost:8080/">http://localhost:8080/</a></p>
+
+
+
+  <pre class="prettyprint"><code class=" hljs ruby"><span class="hljs-comment"># Landing page of the API to explain its purpose</span>
+  <span class="hljs-constant">GET</span> /
+  <span class="hljs-comment"># Create a new Deck. The JSON of the new deck is returned along with the deck's unique ID. The trailing backslash does not matter (as denoted by the '?')</span>
+  <span class="hljs-constant">GET</span> /deck/new/?
+  <span class="hljs-comment"># Retreive the JSON of a previously created deck by putting the deck ID in the URL</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/</span>?
+  <span class="hljs-comment"># To do operations on a deck, first select it by its ID, name the operation, and add parameters depending on the operation</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/draw/</span>?
+  <span class="hljs-comment"># To add a card to an existing deck pass the short name of the card as a parameter (8H = Eight of Hearts, 10C = Ten of Clubs, AD = Ace of Diamonds, QS = Queen of Spades, etc)</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/add/</span><span class="hljs-symbol">:card/</span>?
+  <span class="hljs-comment"># Remove is setup the same as add. Be sure that card exists in the deck though!</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/</span><span class="hljs-symbol">:card/</span>?
+  <span class="hljs-comment"># Jumble up the deck to prevent cheating!</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/shuffle/</span>?
+  <span class="hljs-comment"># Delete all cards from the specified Deck.</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/removeAll/</span>?
+  <span class="hljs-comment"># This page but on the Internet. Woah.</span>
+  <span class="hljs-constant">GET</span> /help</code></pre>
+
+
+
+  <h2 id="code">Code</h2>
+
+  <hr>
+
+  <p>All project specific Scala code is inside of the cloned git repository. Specifically the path (assuming you're at the top of the cloned repository folder) is <em>src/main/scala/com/github/baocin/CardAPI/</em>. The main classes are <strong>Card</strong> and <strong>Deck</strong> contain the majority of the code while the CardServlet contains all the routing logic. The CardapiStack file is boilerplate for the api to function.</p>
+
+  <p>These main code files can also be directly accessed from Github by the link below: <br>
+  <a href="https://github.com/baocin/GroupProject-4102-ScalaAPI/tree/master/src/main/scala/com/github/baocin/CardAPI">https://github.com/baocin/GroupProject-4102-ScalaAPI/tree/master/src/main/scala/com/github/baocin/CardAPI</a></p>
 </div>
 </body>
 </html
