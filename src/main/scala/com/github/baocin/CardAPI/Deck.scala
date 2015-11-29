@@ -59,10 +59,33 @@ class Deck(cards : Array[String]) extends Logging {
     representation.toString()
   }
 
+//Alternative method for shuffling the array
+/*
   //Shuffle all cards in this deck
   def shuffle {
     cardList = Random.shuffle(cardList)
   }
+*/
+
+  //Shuffle the deck using explicit algorithm
+  def shuffle
+  {
+    var r = 0
+    var i = 0
+    var tempCard = cardList(0)
+
+    for(i <- 0 to (cardList.length - 1))
+    {
+      r = Random.nextInt(cards.length)
+      tempCard = cardList(r)
+      cardList(r) = cardList(i)
+      cardList(i) = tempCard
+    }
+  }
+
+
+
+
 
   //Can get rid of some curly braces if function fits on one line
   def addCard(cardToAdd: Card) = cardList.append(cardToAdd)
