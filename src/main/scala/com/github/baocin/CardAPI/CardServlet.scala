@@ -34,12 +34,6 @@ class CardServlet extends CardapiStack with Logging{
     redirect("/help.html")
   }
 
-  get("/deck/:id/remove/all") {
-  	val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
-  	map(mapID).cardList.clear()
-    map(mapID).toJsonString(2)
-  }
-
   get("/deck/:id/remove/:card/?") {
   	val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
     val cardName = params.getOrElse("card", halt(400, html400Error))
@@ -48,6 +42,12 @@ class CardServlet extends CardapiStack with Logging{
     map(mapID).toJsonString(2)
   }
 
+  get("/deck/:id/remove/all") {
+  	val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
+  	map(mapID).cardList.clear()
+    map(mapID).toJsonString(2)
+  }
+  
   get("/deck/:id/add/:card/?") {
   	val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
     val cardShortName = params.getOrElse("card", halt(400, html400Error))
