@@ -45,7 +45,7 @@
   <span class="hljs-comment"># Remove is setup the same as add. Be sure that card exists in the deck though!</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/</span><span class="hljs-symbol">:card/</span>?
   <span class="hljs-comment"># Delete all cards from the specified Deck.</span>
-  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/all/</span>?
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/removeAll/</span>?
   <span class="hljs-comment"># Resets this deck to the default 52 card deck. </span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/default/</span>?
   <span class="hljs-comment"># Jumble up the deck to prevent cheating!</span>
@@ -65,7 +65,7 @@
   <a href="http://aoi.us.to:8080/deck/0/">http://aoi.us.to:8080/deck/0/</a><br/><br/>
   
   First let us clear out the deck to make the examples more apparent.<br/>
-  <a href="http://aoi.us.to:8080/deck/0/remove/all">http://aoi.us.to:8080/deck/0/remove/all</a><br/><br/>
+  <a href="http://aoi.us.to:8080/deck/0/remove/all">http://aoi.us.to:8080/deck/0/removeAll</a><br/><br/>
   
   Adding an "Eight of Clubs" or "8C" card to the empty deck.<br/>
   <a href="http://aoi.us.to:8080/deck/0/add/8C">http://aoi.us.to:8080/deck/0/add/8C</a><br/><br/>

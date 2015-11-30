@@ -42,7 +42,7 @@ class CardServlet extends CardapiStack with Logging{
     map(mapID).toJsonString(2)
   }
 
-  get("/deck/:id/remove/all") {
+  get("/deck/:id/removeAll") {
   	val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
   	map(mapID).cardList.clear()
     map(mapID).toJsonString(2)
