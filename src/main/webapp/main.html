@@ -44,12 +44,50 @@
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/add/</span><span class="hljs-symbol">:card/</span>?
   <span class="hljs-comment"># Remove is setup the same as add. Be sure that card exists in the deck though!</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/</span><span class="hljs-symbol">:card/</span>?
+  <span class="hljs-comment"># Delete all cards from the specified Deck.</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/all/</span>?
+  <span class="hljs-comment"># Resets this deck to the default 52 card deck. </span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/default/</span>?
   <span class="hljs-comment"># Jumble up the deck to prevent cheating!</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/shuffle/</span>?
-  <span class="hljs-comment"># Delete all cards from the specified Deck.</span>
-  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/removeAll/</span>?
+  <span class="hljs-comment"># Find the probability of drawing a specific card from a given deck.</span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/probability/</span><span class="hljs-symbol">:card/</span>?
   <span class="hljs-comment"># Install instructions and a copy of this methods list!</span>
   <span class="hljs-constant">GET</span> /help</code></pre>
+  
+  <h3 id="methods">Example Links</h3>
+  <a href="http://aoi.us.to:8080/deck/new">http://aoi.us.to:8080/deck/new</a>
+  
+  There is a default deck made with ID "0". Normally IDs are longer.
+  <a href="http://aoi.us.to:8080/deck/0/">http://aoi.us.to:8080/deck/0/</a>
+  
+  First let us clear out the deck to make the examples more apparent.
+  <a href="http://aoi.us.to:8080/deck/0/remove/all">http://aoi.us.to:8080/deck/0/remove/all</a>  
+  
+  Adding an "Eight of Clubs" or "8C" card to the empty deck.
+  <a href="http://aoi.us.to:8080/deck/0/add/8C">http://aoi.us.to:8080/deck/0/add/8C</a>
+  
+  Draw a random card - which must draw the eight of clubs added previously.
+  <a href="http://aoi.us.to:8080/deck/0/draw">http://aoi.us.to:8080/deck/0/draw</a>
+  
+  Drawing a card removes it from the deck so let us re-add it.
+  <a href="http://aoi.us.to:8080/deck/0/add/8C">http://aoi.us.to:8080/deck/0/add/8C</a>
+  
+  Remove the card we just added
+  <a href="http://aoi.us.to:8080/deck/0/remove/8C">http://aoi.us.to:8080/deck/0/remove/8C</a>
+  
+  Show that the API can catch some errors - like removing a card from a deck that doesn't have that card.
+  <a href="http://aoi.us.to:8080/deck/0/remove/8C">http://aoi.us.to:8080/deck/0/remove/8C</a>
+  
+  Lets reset the deck to default
+  <a href="http://aoi.us.to:8080/deck/0/default">http://aoi.us.to:8080/deck/0/default</a>
+  
+  Shuffle!
+  <a href="http://aoi.us.to:8080/deck/0/shuffle">http://aoi.us.to:8080/deck/0/shuffle</a>
+  
+  What is the probability of drawing an eight of clubs? 1/52 right? Let's check.
+  <a href="http://aoi.us.to:8080/deck/0/probability/8C">http://aoi.us.to:8080/deck/0/probability/8C</a>
+  
 
 </div>
 </body>

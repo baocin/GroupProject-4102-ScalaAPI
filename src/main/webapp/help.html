@@ -39,7 +39,7 @@
   <li>Open Command Prompt (search "cmd" in start menu) and navigate into the unzipped folder<br/>("cd" to change directory, "dir" to list files)</li>
   <li>Run the following commands:<br>
   (Ignore the $ and &gt; they represent the terminal prompt and SBT prompt respectively)</li>
-  </ol>
+  
   <pre class="prettyprint"><code class=" hljs livecodeserver">
   <span class="hljs-comment">// Execute SBT (Scala Build Tool). For "not enough space error" try "sbt.bat -mem 1024". For "cannot load main class" error try "sbt.bat -mem 1024 -sbt-dir ." When a '>' shows up, do the next command.</span>
   $ sbt.bat
@@ -49,7 +49,8 @@
   <span class="hljs-comment">//To rebuild the project simply press Enter and re-enter the container:start command</span>
   <span class="hljs-comment">//Press <strong>CTRL-C</strong> at any time to stop SBT</span>
   </code></pre>
-  
+  <li>You may be asked to allow Java past your firewall. In testing it didn't matter what you chose in the dialog box, the local API should still be accessible (since it is just local).</li>
+  </ol>
   
   <br/>
   <center>
@@ -79,11 +80,13 @@
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/</span><span class="hljs-symbol">:card/</span>?
   <span class="hljs-comment"># Delete all cards from the specified Deck.</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/all/</span>?
+  <span class="hljs-comment"># Resets this deck to the default 52 card deck. </span>
+  <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/default/</span>?
   <span class="hljs-comment"># Jumble up the deck to prevent cheating!</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/shuffle/</span>?
   <span class="hljs-comment"># Find the probability of drawing a specific card from a given deck.</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/probability/</span><span class="hljs-symbol">:card/</span>?
-  <span class="hljs-comment"># This page but better!</span>
+  <span class="hljs-comment"># Install instructions and a copy of this methods list!</span>
   <span class="hljs-constant">GET</span> /help</code></pre>
 
 

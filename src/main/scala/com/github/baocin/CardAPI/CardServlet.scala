@@ -74,6 +74,11 @@ class CardServlet extends CardapiStack with Logging{
     map(mapID).toJsonString(2)
   }
 
+  get("/deck/:id/default/?") {
+    val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
+  	map(mapID) = new Deck()
+  }
+  
   get("/deck/:id/draw/?") {
     val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
     var count : Int = params.getOrElse("count", "1").toInt     //Must draw atleast 1 card
