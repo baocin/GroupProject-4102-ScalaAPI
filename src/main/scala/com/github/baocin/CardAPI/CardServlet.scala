@@ -15,6 +15,8 @@ class CardServlet extends CardapiStack with Logging{
 
   //Ensure there is always a testing deck with id of 0  (so I can keep the same testing links after restarts)
   map += ("0" -> new Deck())
+  map("0").id = "0";
+  logger.info(s"Created the default deck with id #{map('0').id}")   //String Interpolation with a variable!
 
   //Error messages
   val noSuchDeckError = "Error: 404\nCould not find Deck with that ID!"
@@ -32,7 +34,7 @@ class CardServlet extends CardapiStack with Logging{
     redirect("/help.html")
   }
 
-  get("/deck/:id/removeAll") {
+  get("/deck/:id/remove/all") {
   	val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
   	map(mapID).cardList.clear()
     map(mapID).toJsonString(2)
@@ -53,6 +55,17 @@ class CardServlet extends CardapiStack with Logging{
     map(mapID).toJsonString(2)
   }
 
+  get("/deck/:id/probability/:card/?") {
+    val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
+    val cardShortName = params.getOrElse("card", halt(400, html400Error))
+    val card = new Card(cardShortName)
+    val countFound = map(mapID).findAll(cardShortName)
+    val probability = map(mapID).probabilityToChoose(cardShortName)
+    logger.info("count:" + countFound + " probability:" + probability)
+    var rawJson = Json("probability" -> probability.asJson, "countFound" -> countFound.asJson, "card" -> card.toJson)
+    rawJson.spaces2
+  }
+  
   get("/deck/:id/shuffle/?") {
     //return the shuffled deck of id ID
     val mapID = params.getOrElse("id", halt(404, noSuchDeckError))

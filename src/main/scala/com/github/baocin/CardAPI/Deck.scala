@@ -59,13 +59,12 @@ class Deck(cards : Array[String]) extends Logging {
     representation.toString()
   }
 
-//Alternative method for shuffling the array
-/*
-  //Shuffle all cards in this deck
+  //Alternative method for shuffling the array
+  /*
   def shuffle {
     cardList = Random.shuffle(cardList)
   }
-*/
+  */
 
   //Shuffle the deck using explicit algorithm
   def shuffle
@@ -74,18 +73,18 @@ class Deck(cards : Array[String]) extends Logging {
     var i = 0
     var tempCard = cardList(0)
 
-    for(i <- 0 to (cardList.length - 1))
+    for(i <- 0 until cardList.length)
     {
-      r = Random.nextInt(cards.length)
+      r = Random.nextInt(cardList.length)
+      
+      //temporarily save card
       tempCard = cardList(r)
+      
+      //swap
       cardList(r) = cardList(i)
       cardList(i) = tempCard
     }
   }
-
-
-
-
 
   //Can get rid of some curly braces if function fits on one line
   def addCard(cardToAdd: Card) = cardList.append(cardToAdd)
@@ -100,7 +99,21 @@ class Deck(cards : Array[String]) extends Logging {
   def removeCard(cardShortName : String) {
     cardList.remove(cardList.indexWhere(x => x.shortName == cardShortName))
   }
-
+  
+  //find all cards that match the specified card in this deck
+  def findAll(cardShortName : String) : Int = {
+    cardList.count(x => x.shortName == cardShortName)
+  }
+  
+  //return probability of choosing a given card from this deck
+  def probabilityToChoose(cardShortName : String) : Double = {
+    findAll(cardShortName)/(1.0 * cardList.length)
+  }
+  
+  def probabilityToChoose(card : Card) : Double = {
+    probabilityToChoose(card.shortName)
+  }
+  
   //Using Argonaut to construct json
   def toJson : Json = {
     var cardField : Json.JsonField = "cards"
