@@ -25,7 +25,8 @@
   $ ./sbt
   <span class="hljs-comment">// Once SBT is started the following command tells it to run the API web server.</span>
   &gt; container:start
-  <span class="hljs-comment">// Finally open your web browser and go to "http://localhost:8080/"</span>
+  <span class="hljs-comment">// Wait for it to say "Server:main Started @XXXXms"</span>
+  <span class="hljs-comment">Finally open your web browser and go to "http://localhost:8080/"</span>
   <span class="hljs-comment">//To rebuild the project simply press Enter and re-enter the container:start command</span>
   <span class="hljs-comment">//Press <strong>CTRL-C</strong> at any time to stop SBT</span>
   </code></pre>
@@ -54,7 +55,7 @@
   
   <br/>
   <center>
-  <p><strong>If you are unable to get it working please contact us.</strong> <br>
+  <p><strong>If you are unable to get it working please contact us at <a href="mailto:mpeders3@uncc.edu">mpeders3@uncc.edu</a></strong> <br>
   <strong>A backup will be available at <a href="http://aoi.us.to:8080">http://aoi.us.to:8080</a></strong></p>
 </center>
 
@@ -62,8 +63,6 @@
   <h3 id="methods">Methods</h3>
 
   <p>Starting from the base URL of <a href="http://localhost:8080/">http://localhost:8080/</a></p>
-
-
 
   <pre class="prettyprint"><code class=" hljs ruby"><span class="hljs-comment"># Landing page of the API</span>
   <span class="hljs-constant">GET</span> /
