@@ -114,6 +114,17 @@ class Deck(cards : Array[String]) extends Logging {
     probabilityToChoose(card.shortName)
   }
   
+  def draw(implicit count : Int) : ArrayBuffer[Card] = {
+    var drawnCards = ArrayBuffer[Card]()
+    var i = 1;
+    for (i <- 1 to count){
+      var drawnCard = cardList(0)     //draw off the top card
+      drawnCards.append(drawnCard)
+      removeCard(drawnCard)
+    }
+    drawnCards
+  }
+  
   //Using Argonaut to construct json
   def toJson : Json = {
     var cardField : Json.JsonField = "cards"

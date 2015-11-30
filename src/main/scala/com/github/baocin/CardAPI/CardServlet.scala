@@ -81,22 +81,14 @@ class CardServlet extends CardapiStack with Logging{
   
   get("/deck/:id/draw/?") {
     val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
-    var count : Int = params.getOrElse("count", "1").toInt     //Must draw atleast 1 card
+    implicit var count : Int = params.getOrElse("count", "1").toInt     //Must draw atleast 1 card
     if (count > map(mapID).cardList.length) halt(400, drawCountTooHighError)
     if (map(mapID).cardList.length == 0) halt(400, deckEmptyError)
 
-    // var availableCards = map(mapID).cardList
-    var removedCards = ArrayBuffer[Card]();
-
-    var i = 1;
-    for (i <- 1 to count){
-      var removedCard = map(mapID).randomCard();
-      removedCards.append(removedCard)
-      map(mapID).removeCard(removedCard)
-    }
+    var drawnCards = map(mapID).draw;
 
     // var cardField : Json.JsonField = "cards"
-    var cardList = removedCards.toList
+    var cardList = drawnCards.toList
     var jsonCardList = cardList.map(x => x.toJson)
     var rawJson = Json("remaining" -> map(mapID).cardList.length.asJson, "cards" -> jsonCardList.asJson)
     rawJson.spaces2

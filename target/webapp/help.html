@@ -39,7 +39,7 @@
   <li>Open Command Prompt (search "cmd" in start menu) and navigate into the unzipped folder<br/>("cd" to change directory, "dir" to list files)</li>
   <li>Run the following commands:<br>
   (Ignore the $ and &gt; they represent the terminal prompt and SBT prompt respectively)</li>
-  </ol>
+  
   <pre class="prettyprint"><code class=" hljs livecodeserver">
   <span class="hljs-comment">// Execute SBT (Scala Build Tool). For "not enough space error" try "sbt.bat -mem 1024". For "cannot load main class" error try "sbt.bat -mem 1024 -sbt-dir ." When a '>' shows up, do the next command.</span>
   $ sbt.bat
@@ -49,7 +49,8 @@
   <span class="hljs-comment">//To rebuild the project simply press Enter and re-enter the container:start command</span>
   <span class="hljs-comment">//Press <strong>CTRL-C</strong> at any time to stop SBT</span>
   </code></pre>
-  
+  <li>You may be asked to allow Java past your firewall. In testing it didn't matter what you chose in the dialog box, the local API should still be accessible (since it is just local).</li>
+  </ol>
   
   <br/>
   <center>
@@ -57,7 +58,7 @@
   <strong>A backup will be available at <a href="http://aoi.us.to:8080">http://aoi.us.to:8080</a></strong></p>
 </center>
 
-
+  <br/>
   <h3 id="methods">Methods</h3>
 
   <p>Starting from the base URL of <a href="http://localhost:8080/">http://localhost:8080/</a></p>
