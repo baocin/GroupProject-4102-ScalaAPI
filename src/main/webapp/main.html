@@ -33,12 +33,13 @@
 
   <pre class="prettyprint"><code class=" hljs ruby"><span class="hljs-comment"># Landing page of the API</span>
   <span class="hljs-constant">GET</span> /
-  <span class="hljs-comment"># Create a new Deck. The JSON of the new deck is returned along with the deck's unique ID. The trailing backslash is optional. To make a deck of custom cards add "?cards=" to the end of this URL and then list the short names of the cards you wish to add, separated with commas.</span>
+  <span class="hljs-comment"># Create a new Deck. The JSON of the new deck is returned along with the deck's unique ID. The trailing backslash is optional. To make a deck of custom cards add "?cards=" to the end of this URL and then list the short names of the cards you wish to add, separated with commas. Example: "/deck/new?cards=8H,AD,10C,QS"</span>
   <span class="hljs-comment"># Card Short Names: 8H = Eight of Hearts, 10C = Ten of Clubs, AD = Ace of Diamonds, QS = Queen of Spades, etc - see http://localhost:8080/deck/0/ for examples</span>
   <span class="hljs-constant">GET</span> /deck/new/?
   <span class="hljs-comment"># Retreive the JSON of a previously created deck by putting the deck ID in the URL</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/</span>?
   <span class="hljs-comment"># To do operations on a deck, first select it by its ID, name the operation, and add parameters, if needed</span>
+  <span class="hljs-comment"># When drawing you can specify how many cards to draw like this "/deck/:id/draw?count=2".</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/draw/</span>?
   <span class="hljs-comment"># To add a card to an existing deck pass the short name of the card as a parameter.</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/add/</span><span class="hljs-symbol">:card/</span>?
@@ -46,7 +47,7 @@
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/remove/</span><span class="hljs-symbol">:card/</span>?
   <span class="hljs-comment"># Delete all cards from the specified Deck.</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/removeAll/</span>?
-  <span class="hljs-comment"># Resets this deck to the default 52 card deck. </span>
+  <span class="hljs-comment"># Resets this deck to the default 52 card deck. Preserves ID. </span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/default/</span>?
   <span class="hljs-comment"># Jumble up the deck to prevent cheating!</span>
   <span class="hljs-constant">GET</span> /deck/<span class="hljs-symbol">:id/shuffle/</span>?
