@@ -14,9 +14,10 @@ class CardServlet extends CardapiStack with Logging{
   val map = HashMap.empty[String,Deck]
 
   //Ensure there is always a testing deck with id of 0  (so I can keep the same testing links after restarts)
-  map += ("0" -> new Deck())
-  map("0").id = "0";
-  logger.info(s"Created the default deck with id #${map('0').id}")   //String Interpolation with a variable!
+  val defaultDeckID = "0"
+  map += (defaultDeckID -> new Deck())
+  map(defaultDeckID).id = defaultDeckID;
+  logger.info(s"Created the default deck with id #$defaultDeckID")   //String Interpolation with a variable!
 
   //Error messages
   val noSuchDeckError = "Error: 404\nCould not find Deck with that ID!"
@@ -77,6 +78,7 @@ class CardServlet extends CardapiStack with Logging{
   get("/deck/:id/default/?") {
     val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
   	map(mapID) = new Deck()
+    map(mapID).toJsonString(2)
   }
   
   get("/deck/:id/draw/?") {
