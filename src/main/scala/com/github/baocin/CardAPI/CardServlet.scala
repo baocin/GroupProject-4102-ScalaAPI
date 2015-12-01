@@ -78,6 +78,7 @@ class CardServlet extends CardapiStack with Logging{
   get("/deck/:id/default/?") {
     val mapID = params.getOrElse("id", halt(404, noSuchDeckError))
   	map(mapID) = new Deck()
+    map(mapID).id = mapID
     map(mapID).toJsonString(2)
   }
   
